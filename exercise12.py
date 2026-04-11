@@ -1,0 +1,7 @@
+number = int(input("Enter a five digit number : "))
+a = (int(number / 10000)% 10)
+b = (int(number / 1000)% 10)
+c = (int(number / 100)% 10)
+d = (int(number / 10)% 10)
+e = (int(number % 10))
+print (a, ' ', b, ' ', c, ' ', d, ' ', e )
